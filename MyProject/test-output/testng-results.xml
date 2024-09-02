@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T11:36:32 WEST" name="Default suite" finished-at="2024-09-02T11:37:28 WEST" duration-ms="55911">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T11:36:32 WEST" name="Default test" finished-at="2024-09-02T11:37:28 WEST" duration-ms="55911">
+      <class name="MyPackage.MyClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:36:32 WEST" name="setup" finished-at="2024-09-02T11:36:40 WEST" duration-ms="7972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC2_Authentication_KO(java.lang.String,java.lang.String)[pri:1, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:36:40 WEST" name="TC2_Authentication_KO" data-provider="authenticationData" finished-at="2024-09-02T11:36:41 WEST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_Authentication_KO -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:36:41 WEST" name="tearDown" finished-at="2024-09-02T11:36:43 WEST" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:36:43 WEST" name="setup" finished-at="2024-09-02T11:36:52 WEST" duration-ms="8942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC2_Authentication_KO(java.lang.String,java.lang.String)[pri:1, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:36:52 WEST" name="TC2_Authentication_KO" data-provider="authenticationData" finished-at="2024-09-02T11:36:53 WEST" duration-ms="1032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_Authentication_KO -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:36:53 WEST" name="tearDown" finished-at="2024-09-02T11:36:54 WEST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:36:54 WEST" name="setup" finished-at="2024-09-02T11:37:04 WEST" duration-ms="9608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC2_Authentication_KO(java.lang.String,java.lang.String)[pri:1, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:37:04 WEST" name="TC2_Authentication_KO" data-provider="authenticationData" finished-at="2024-09-02T11:37:05 WEST" duration-ms="1205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_Authentication_KO -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:37:05 WEST" name="tearDown" finished-at="2024-09-02T11:37:06 WEST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:37:06 WEST" name="setup" finished-at="2024-09-02T11:37:16 WEST" duration-ms="9488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC3_Authentication_OK()[pri:2, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:37:16 WEST" name="TC3_Authentication_OK" finished-at="2024-09-02T11:37:17 WEST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_Authentication_OK -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:37:17 WEST" name="tearDown" finished-at="2024-09-02T11:37:18 WEST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:37:18 WEST" name="setup" finished-at="2024-09-02T11:37:26 WEST" duration-ms="7728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC4_dropdown()[pri:3, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:37:26 WEST" name="TC4_dropdown" finished-at="2024-09-02T11:37:26 WEST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_dropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyPackage.MyClass@8f4ea7c]" started-at="2024-09-02T11:37:26 WEST" name="tearDown" finished-at="2024-09-02T11:37:28 WEST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyPackage.MyClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

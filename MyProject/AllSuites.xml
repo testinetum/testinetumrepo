@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllSuites">
+    <suite-files>
+        <suite-file path="C:\Users\abdellah.el-otmani\eclipse-workspace\MyProject\testng.xml"/>
+        <suite-file path="C:\Users\abdellah.el-otmani\eclipse-workspace\MyProject\testng2.xml"/>
+    </suite-files>
+</suite>

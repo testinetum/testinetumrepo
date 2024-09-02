@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T10:08:13 WEST" name="Default suite" finished-at="2024-09-02T10:08:16 WEST" duration-ms="3093">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T10:08:13 WEST" name="Default test" finished-at="2024-09-02T10:08:16 WEST" duration-ms="3093">
+      <class name="MyApiPackage.MyApiClass">
+        <test-method signature="testUiAndApi()[pri:1, instance:MyApiPackage.MyApiClass@51972dc7]" started-at="2024-09-02T10:08:13 WEST" name="testUiAndApi" finished-at="2024-09-02T10:08:16 WEST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUiAndApi -->
+      </class> <!-- MyApiPackage.MyApiClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

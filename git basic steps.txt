@@ -1,0 +1,10 @@
+1-git clone https://....			#clone repo to your local
+1.1- cd to the repo
+2-git checkout -b <new branch name>		#create new branch to make our changes
+3-"make changes in code"
+4-git status					#to check changes (red)
+5-git add <file name> or git add .   		#apply changes
+6-git status   					#to check changes (green)
+7-git commit -m <description>       		#commit the changes
+8-git push origin <your new branch name>     	#Push the New Branch to the Remote Repository
+9-"a PR is created waiting for validation"
